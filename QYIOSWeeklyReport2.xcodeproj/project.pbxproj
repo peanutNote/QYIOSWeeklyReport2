@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0587D21EB86A2E00E14FB0 /* UIImage+QYImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0587D11EB86A2E00E14FB0 /* UIImage+QYImageName.m */; };
+		1E0587D41EB8729500E14FB0 /* chemanman_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E0587D31EB8729500E14FB0 /* chemanman_icon.png */; };
 		1E7A247B1D3DD56100EAE392 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A247A1D3DD56100EAE392 /* main.m */; };
 		1E7A247E1D3DD56100EAE392 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A247D1D3DD56100EAE392 /* AppDelegate.m */; };
 		1E7A24811D3DD56100EAE392 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A24801D3DD56100EAE392 /* ViewController.m */; };
 		1E7A24841D3DD56100EAE392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7A24821D3DD56100EAE392 /* Main.storyboard */; };
 		1E7A24861D3DD56100EAE392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7A24851D3DD56100EAE392 /* Assets.xcassets */; };
 		1E7A24891D3DD56100EAE392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7A24871D3DD56100EAE392 /* LaunchScreen.storyboard */; };
-		1EBBCC7F1E51A52C003BC48A /* UIImage+QYImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBCC7E1E51A52C003BC48A /* UIImage+QYImageName.m */; };
-		1EBBCC811E51A5F4003BC48A /* chemanman_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EBBCC801E51A5F4003BC48A /* chemanman_icon.png */; };
 		1EBBCC841E51AC75003BC48A /* ViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBCC831E51AC75003BC48A /* ViewMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0587D01EB86A2E00E14FB0 /* UIImage+QYImageName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYImageName.h"; sourceTree = "<group>"; };
+		1E0587D11EB86A2E00E14FB0 /* UIImage+QYImageName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYImageName.m"; sourceTree = "<group>"; };
+		1E0587D31EB8729500E14FB0 /* chemanman_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chemanman_icon.png; sourceTree = "<group>"; };
 		1E7A24761D3DD56100EAE392 /* QYIOSWeeklyReport2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYIOSWeeklyReport2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7A247A1D3DD56100EAE392 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E7A247C1D3DD56100EAE392 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,9 +32,6 @@
 		1E7A24851D3DD56100EAE392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E7A24881D3DD56100EAE392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E7A248A1D3DD56100EAE392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EBBCC7D1E51A52C003BC48A /* UIImage+QYImageName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYImageName.h"; sourceTree = "<group>"; };
-		1EBBCC7E1E51A52C003BC48A /* UIImage+QYImageName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYImageName.m"; sourceTree = "<group>"; };
-		1EBBCC801E51A5F4003BC48A /* chemanman_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chemanman_icon.png; sourceTree = "<group>"; };
 		1EBBCC821E51AC75003BC48A /* ViewMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMaker.h; sourceTree = "<group>"; };
 		1EBBCC831E51AC75003BC48A /* ViewMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,11 +82,11 @@
 		1E7A24791D3DD56100EAE392 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1EBBCC7D1E51A52C003BC48A /* UIImage+QYImageName.h */,
-				1EBBCC7E1E51A52C003BC48A /* UIImage+QYImageName.m */,
+				1E0587D31EB8729500E14FB0 /* chemanman_icon.png */,
 				1EBBCC821E51AC75003BC48A /* ViewMaker.h */,
 				1EBBCC831E51AC75003BC48A /* ViewMaker.m */,
-				1EBBCC801E51A5F4003BC48A /* chemanman_icon.png */,
+				1E0587D01EB86A2E00E14FB0 /* UIImage+QYImageName.h */,
+				1E0587D11EB86A2E00E14FB0 /* UIImage+QYImageName.m */,
 				1E7A247A1D3DD56100EAE392 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E7A24891D3DD56100EAE392 /* LaunchScreen.storyboard in Resources */,
-				1EBBCC811E51A5F4003BC48A /* chemanman_icon.png in Resources */,
+				1E0587D41EB8729500E14FB0 /* chemanman_icon.png in Resources */,
 				1E7A24861D3DD56100EAE392 /* Assets.xcassets in Resources */,
 				1E7A24841D3DD56100EAE392 /* Main.storyboard in Resources */,
 			);
@@ -166,8 +166,8 @@
 			files = (
 				1E7A24811D3DD56100EAE392 /* ViewController.m in Sources */,
 				1E7A247E1D3DD56100EAE392 /* AppDelegate.m in Sources */,
-				1EBBCC7F1E51A52C003BC48A /* UIImage+QYImageName.m in Sources */,
 				1E7A247B1D3DD56100EAE392 /* main.m in Sources */,
+				1E0587D21EB86A2E00E14FB0 /* UIImage+QYImageName.m in Sources */,
 				1EBBCC841E51AC75003BC48A /* ViewMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

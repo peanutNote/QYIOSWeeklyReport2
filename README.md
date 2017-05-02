@@ -14,7 +14,7 @@ ___
 	* 优点：图片资源第一次加载会留在内存中，下次使用时不会重复加载会继续复用之前的图片
 	* 缺点：由于存储加载图片的字典是强引用，字典不释放图片资源也不会释放并且伴随整个app生命周期
 
-* 解决办法，可以使用imageWithContentsOfFile:方式让图片对象的生命周期可控，同事借鉴imageNamed:方式来做内存上的处理。具体方法有两个(这里[github](https://github.com/Magic-Unique/HXImage/blob/master/description.md)里面说的很详细这里我简化了其中一种)。
+* 解决办法，可以使用imageWithContentsOfFile:方式让图片对象的生命周期可控，同事借鉴imageNamed:方式来做内存上的处理。
 	* 一种是循环存放图片对象的字典，如果该对象的引用计数为1则手动释放该对象(在MRC中可以直接读取对象的引用计数retainCount，ARC中则需要通过KVC的方式读取`[[self valueForKey:@"retainCount"] unsignedLongValue]`)
 	* 另一种是用弱引用字典的形式让字典里的图片对象在没有被强引用引用时自动释放，实现弱引用字典的方式就是通过block封装解封实现的：
 ```objc

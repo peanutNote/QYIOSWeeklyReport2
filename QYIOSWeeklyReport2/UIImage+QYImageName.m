@@ -62,7 +62,7 @@ id weakReferenceNonretainedObjectValue(WeakReference ref) {
     return _imageBuff;
 }
 
-+ (instancetype)imageNamed:(NSString *)imageName {
++ (instancetype)imageNamed11111:(NSString *)imageName {
     if (!imageName) {
         return nil;
     }

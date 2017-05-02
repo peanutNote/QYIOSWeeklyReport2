@@ -28,14 +28,18 @@
     NSLog(@"%@", dslView);
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    _testImageView1.image = [UIImage imageNamed:@"chemanman_icon"];
+
+- (IBAction)addImage:(id)sender {
+    UIImage *releaseImage = [UIImage imageNamed:@"chemanman_icon"];
+    _testImageView1.image = releaseImage;
+    NSLog(@"%@", releaseImage);
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    _testImageView2.image = [UIImage imageNamed:@"chemanman_icon"];
+//    UIImage *releaseImage = [UIImage imageNamed:@"chemanman_icon"];
+//    _testImageView2.image = releaseImage;
+//    NSLog(@"%@", releaseImage);
 }
 
 - (void)didReceiveMemoryWarning {
